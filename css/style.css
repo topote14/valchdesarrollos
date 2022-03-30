@@ -3471,7 +3471,14 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap; }
+  white-space: nowrap;
+  
+}
+#logo{
+  width: 20%;
+  height: 100%;
+}
+
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
@@ -8188,7 +8195,9 @@ h1, h2, h3, h4, h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;  
+}
+
   .hero-wrap .overlay {
     position: absolute;
     top: 0;
@@ -8196,7 +8205,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .3;
+    opacity: .8;
     background: #000000; }
   .hero-wrap.hero-wrap-2 {
     height: 500px;
@@ -8222,7 +8231,7 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase; }
 
 .slider-text h1 {
-  font-size: 48px;
+  font-size: 90px;
   color: #fff;
   line-height: 1.2;
   font-weight: 400; }
